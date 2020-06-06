@@ -1,0 +1,141 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    background-color: blue !important;
+
+}
+.navbar-nav{
+   margin-left: 350px  !important; 
+}
+.nav-link{
+    font-size: 20px;
+    font-weight: normal;
+    padding: 10px;
+    color: white !important;
+}
+.nav-link:hover{
+    text-decoration: underline; 
+}
+.navbar-toggler{
+    background-color: white !important; 
+}
+.navbar-brand >img{
+  height: 70px;
+  width: 70px;
+}
+.carousel-caption > p{
+    color: black !important;
+    font-size: 20px;
+    font-weight: bold;
+}
+.card{
+    float: left;
+    margin-left: 110px;
+}
+.myimg{
+    height: 150px;
+    width: 100%;
+    text-align: center;
+}
+.myimg img{
+    height: 200px;
+    width: 200px;
+    border-radius: 30%;
+}
+.vl {
+    border-right: 4px solid pink;
+    height: 280px;
+  }
+.nametxt{
+    text-align: center;
+}
+.box{
+    height: 200px;
+    border-right: 3px solid black;
+}
+.box h3{
+    margin-top: 30px;
+}
+
+.assignments{
+    text-align: center;
+}
+.assignments button{
+    width: 100%;
+}
+.assignments a{
+    color: white;
+    font-size: 20px;
+}
+
+
+/* Contact-area */
+.contact{
+    float: left;
+    margin-top: 20px;
+    margin-left: 100px;
+}
+.contact input{
+    width: 300px;
+    height: 30px;
+}
+.contact textarea{
+    width: 300px;
+}
+.contact button{
+    width: 300px;
+    height: 30px;
+    background-color: sienna;
+    border: none;
+}
+.contact button:focus{
+    outline: none;
+    cursor: pointer;
+}
+.add{
+    float: right;
+    width: 300px;
+    margin-top: 20px;
+    margin-right: 120px;
+}
+
+.footer{
+    width: 100%;
+    height: 150px;
+    background-color: coral;
+}
+.footer p{
+    text-align: center;
+    font-size: 25px;
+    color: rgb(19, 201, 155);
+}
+.icon{
+    /* float: left; */
+    text-align: center;
+    margin-left: -40px;
+}   
+.icon img{
+   height: 18px;
+   width: 18px;
+}
+.icon ul{
+   list-style-type: none;
+}
+.icon ul li{
+   display: inline-block;
+}
+.icon ul li a{
+   padding: 10px;
+}
+.icon ul li a:hover{
+   background-color: rgb(231, 162, 168);
+}
+
+
+@media screen and (max-width:990px ){
+   .navbar-nav{
+       margin-left: 0px !important;
+   }
+}
